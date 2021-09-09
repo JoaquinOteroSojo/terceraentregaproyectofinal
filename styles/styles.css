@@ -239,7 +239,7 @@ a:hover {
 .btn.close {
   width: 24px;
   height: 24px;
-  background-image: url(/styles/close.png);
+  background-image: url(./styles/close.png);
   left: 44px;
   top: 26px;
   background-position: center center;
@@ -316,21 +316,21 @@ a:hover {
 .player-controls .play {
   width: 16px;
   height: 21px;
-  background-image: url(/styles/play.png);
+  background-image: url(./styles/play.png);
   left: 44px;
   top: 0;
 }
 .player-controls .pause {
   width: 14px;
   height: 18px;
-  background-image: url(/styles/pause.png);
+  background-image: url(./styles/pause.png);
   left: 44px;
   top: 1.5px;
 }
 .player-controls .full {
   width: 26px;
   height: 14px;
-  background-image: url(/styles/fullscreen.png);
+  background-image: url(./styles/fullscreen.png);
   right: 44px;
   top: 3.5px;
 }
