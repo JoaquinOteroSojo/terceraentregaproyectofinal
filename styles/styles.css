@@ -99,6 +99,11 @@ a:hover {
   height: calc(50vh - 23.5px);
   padding: 0;
 }
+
+.nomargin {
+  padding-right: 0;
+  padding-left: 0;
+}
 .hero-grid .blog__title {
   height: calc(25vh - 23.5px);
   padding: 0;
@@ -437,3 +442,29 @@ a:hover {
   font-style: normal;
   font-size: ;
 }
+
+/* // BLOG // */
+
+@media only screen and (max-width: 768px) {
+	#first {
+		order: 1;
+	}
+	#second {
+		order: 2;
+	}
+	#third {
+		order: 3;
+	}
+	#fourth {
+		order: 5;
+	}
+
+	#fifth {
+		order: 4;
+	}
+  #sixth {
+		order: 6;
+	}
+  #seventh {
+		order: 7;
+	}
